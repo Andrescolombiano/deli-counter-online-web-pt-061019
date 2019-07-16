@@ -4,8 +4,8 @@ def line (katz_deli)
     puts "The line is currently empty."
   else
    customers_line = []
-   katz_deli.each_with_index {|customer, index| customers_line << "#{index + 1}"
-   #{customer}"}
+   katz_deli.each_with_index {|customer, index| customers_line << #{index + 1}
+   #{customer}}
     puts "The line is currently: #{customers_line.join (" ")}"
   end
 end
